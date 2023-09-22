@@ -1,1 +1,39 @@
 /*  your css code here. If applicable */
+.hero{
+	display : flex;
+	justify-content : center;
+	align-items : center;
+	width : 700px;
+	height : 300px;
+	text-align : center;
+/* 	background-color : pink; */
+}
+
+img{
+	background-size : cover;
+	background-position : cover ;
+	height : 300px ;
+	width : 500px;
+}
+
+.main{
+	display : flex ;
+	justify-content : center;
+	align-items : center ;
+	flex-direction : column;
+}
+p{
+	margin : 10px;
+}
+button{
+	background-color : red;
+	border-radius : 10px;
+	padding: 5px 5px;
+    border-radius: 5px; /* Rounded corners */
+    font-size: 1rem;
+    cursor: pointer;
+}
+a{
+	color : white;
+	text-decoration : none;
+}
